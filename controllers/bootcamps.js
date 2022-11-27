@@ -3,7 +3,7 @@ const asyncHandler = require("../middleware/async");
 const path = require('path');
 const Bootcamp = require("../models/Bootcamp");
 const geocoder = require("../utils/geocoder");
-const { remove } = require("../models/Course");
+
 
 // @desc        Get all bootcamps
 // @route       GET /api/v1/bootcamps
