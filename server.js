@@ -15,6 +15,9 @@ const errorHandler = require('./middleware/error');
 const connectDB = require("./config/db");
 
 
+
+
+
 // Route files
 const bootcamps = require("./routes/bootcamps");
 const courses = require('./routes/courses');
@@ -65,6 +68,15 @@ app.use(hpp());
 
 // Enable CORS
 app.use(cors());
+
+// Implementing a Basic CSP for hashes error
+app.use(function (req, res, next) {
+  res.setHeader(
+    'Content-Security-Policy',
+    "'unsafe-hashes' 'sha256-RFWPLDbv2BY+rCkDzsE+0fr8ylGr2R2faWMhq4lfEQc="
+  );
+  next();
+});
 
 // Set static folder
 app.use(express.static(path.join(__dirname,'public')));
