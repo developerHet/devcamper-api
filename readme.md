@@ -23,3 +23,8 @@ npm start
 
 - Version: 1.0.0
 - Licence: MIT
+
+<br/><br/>
+### Developed by Het Patel
+### Mentor by Jatin Patel
+
