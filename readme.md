@@ -21,13 +21,6 @@ npm run dev
 npm start
 ```
 
-- Version: 1.0.0
-- Licence: MIT
-
-<br/><br/>
-### Developed by Het Patel
-### Mentor Jatin Patel
-
 # DevCamper Backend API Specifications
 
 Create the backend for a bootcamp directory website. The html/css template has been created and can be used as a reference for functionality. All of the functionality below needs to be fully implmented in this project.
@@ -126,4 +119,9 @@ Create the backend for a bootcamp directory website. The html/css template has b
 - Use docgen to create HTML files from Postman
 - Add html files as the / route for the api
 
+- Version: 1.0.0
+- Licence: MIT
 
+<br/><br/>
+### Developed by Het Patel
+### Mentor Jatin Patel
