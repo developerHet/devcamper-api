@@ -26,5 +26,5 @@ npm start
 
 <br/><br/>
 ### Developed by Het Patel
-### Mentor by Jatin Patel
+### Mentor Jatin Patel
 
